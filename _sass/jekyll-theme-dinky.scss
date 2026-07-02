@@ -79,7 +79,7 @@ h4, h5, h6 {
 a {
     color:#000000;
     font-weight:200;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 a:hover {
@@ -300,17 +300,17 @@ header li:hover {
 
 a.buttons {
     -webkit-font-smoothing: antialiased;
-    background: url(../images/arrow-down.png) no-repeat;
+    background: url(../images/arrow-down.png) no-repeat left center;
     font-weight: normal;
     text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
-    padding: 2px 6px;
-    height: 30px;
+    padding: 2px 6px 2px 22px;
     display: block;
     text-align: center;
+    text-decoration: none;
 }
 
 a.github {
-    background: url(../images/skull-small.png) no-repeat 1px;
+    background: url(../images/skull-small.png) no-repeat 1px center;
 }
 
 a.buttons:hover {
